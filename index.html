@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">  
+  <title>Mobile App</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" type="module" defer></script>
+</head>
+<body>
+  <div class="main-container">
+    <img src="./assets/Freddie.png" alt="Person with hand up" class="logo">
+    <h1 class="header-text">We are the Champions</h1>
+    <div class="container"> 
+      <textarea class="textarea" placeholder="Write your endorsement here" id="textarea"></textarea>
+      <div class="input-container">
+        <input class="input" type="text" id="from-input" placeholder="From">
+        <input class="input" type="text" id="to-input" placeholder="To">
+      </div>
+    </div>
+    <button class="publish-btn" id="publish-btn">Publish</button>
+    <h2 class="subheader">- Endorsements - </h2>
+    <ul class="endorsement-container" id="item-list"></ul>
+  </div>
+</body>
+</html>

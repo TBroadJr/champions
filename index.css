@@ -1,0 +1,119 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(27, 25, 35);
+}
+
+p {
+  margin: 10px;
+}
+
+.main-container {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.header-text {
+  color: white;
+  margin-top: 20px;
+}
+
+.textarea, 
+.input {
+  color: white;
+  background-color: #444059;
+  border: none;
+  border-radius: 8px;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.textarea {
+  height: 125px;
+  width: 80%;
+  padding: 10px;
+}
+
+.input-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.publish-btn {
+  background-color: #28A9F1;
+  color: #04131C;
+  font-size: 22px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  height:70px;
+  margin-top: 20px;
+}
+
+.publish-btn:active {
+  border: solid;
+}
+
+.subheader {
+  color: white;
+  margin-top: 20px;
+}
+
+.endorsement-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.fromText,
+.toText,
+.paraText {
+  font-family: 'Inter', sans-serif;  
+}
+
+.fromText,
+.toText{
+  font-weight: 700;
+}
+
+.paraText {
+  word-wrap: break-word;
+}
+
+.endorsement-item {
+  text-align: start;
+  background-color: white;
+  color: #1B1924;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 80%;
+  font-size: 12px;
+}
